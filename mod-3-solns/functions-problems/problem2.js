@@ -2,36 +2,36 @@
 // of vowels within the string. (Hint: use the “split” method, the Array#includes method, and a “for” loop).
 
 // For loop
-
-function vowel_count(str) {
-  var array_of_vowels = ["a", "e", "i", "o", "u"];
-  var current_vowel_count = 0;
-  var array_of_letters = str.split("");
+function vowelCount(str) {
+  var arrayOfVowels = ["a", "e", "i", "o", "u"];
+  var currentVowelCount = 0;
+  var arrayOfLetters = str.split("");
   
-  for(var x = 0; x < array_of_letters.length ; x++) {
-    if (array_of_vowels.includes(array_of_letters[x])) {
-      current_vowel_count += 1;
+  for(var x = 0; x < arrayOfLetters.length ; x++) {
+    if (arrayOfVowels.includes(arrayOfLetters[x])) {
+      currentVowelCount += 1;
     }
   }
 
-  return current_vowel_count;
+  return currentVowelCount;
 }
 
-console.log(vowel_count("How many vowels do you see?"));
+console.log(vowelCount("How many vowels do you see?"));
 
 
 // forEach method
+function vowelCount(str) {
+  var arrayOfVowels = ["a", "e", "i", "o", "u"];
+  var currentVowelCount = 0;
+  var arrayOfLetters = str.split("");
 
-function vowel_count(str) {
-  var array_of_vowels = ["a", "e", "i", "o", "u"];
-  var current_vowel_count = 0;
-  var array_of_letters = str.split("");
-
-  array_of_letters.forEach(function(letter) {
-    if (array_of_vowels.includes(letter)) {
-      current_vowel_count += 1;
+  arrayOfLetters.forEach(function(letter) {
+    if (arrayOfVowels.includes(letter)) {
+      currentVowelCount += 1;
     }
   });
 
-  return current_vowel_count;
+  return currentVowelCount;
 }
+
+console.log(vowelCount("How many vowels do you see?"));
