@@ -5,7 +5,7 @@ function factorial(num) {
     return 1;
   }
   
-  return x * factorial(num-1);       
+  return x * factorial(num - 1);       
 }
 
 console.log(factorial(5));
