@@ -4,16 +4,23 @@ let tries = 3;
 function numberGuessingGame() {
     let yourGuess = document.getElementById('guess').value;
     
-    if(yourGuess === randomNumber) {
+    checkGuess(yourGuess);
+    updateTries()
+}
+
+function checkGuess(guess) {
+    if(guess === randomNumber) {
         document.getElementById('answer').innerHTML = "WOW! You got it right!";
     }
-    else if(yourGuess < randomNumber) {
-        document.getElementById('answer').innerHTML = "You entered " + yourGuess + ", too low, try again!";
+    else if(guess < randomNumber) {
+        document.getElementById('answer').innerHTML = "You entered " + guess + ", too low, try again!";
     }
-    else if(yourGuess > randomNumber) {
-        document.getElementById('answer').innerHTML = "You entered " + yourGuess + ", too high, try again!";
+    else if(guess > randomNumber) {
+        document.getElementById('answer').innerHTML = "You entered " + guess + ", too high, try again!";
     }
-    
+}
+
+function updateTries() {
     tries -= 1;
 
     document.getElementById('tries').innerHTML = "Your Tries: " + tries;
