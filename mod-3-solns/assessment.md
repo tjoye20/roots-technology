@@ -1,3 +1,12 @@
+# Module 3 Assessment
+[Click here](https://roots-technology.mykajabi.com/assessments/2147491653/assessment_results/2148843387?result_token=BAhbB2wrB3u%2FFIBVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDXFXHsAK3OFgCToJem9uZUkiCFVUQwY6BkVGOg1uYW5vX251bWkCrAI6DW5hbm9fZGVuaQY6DXN1Ym1pY3JvIgdoQEkiCFVUQwY7CFRACw%3D%3D--9cc840f8c41172b532ec4b2763d476cc243d61fd)
+
+**Notes**
+1. A variable is a storage location used to store data.
+2. Because of hoisting, you should declare all your variables at the top of your functions.
+3. Map and filter are two array methods that return a new array.
+
+
 
 ## What is a parameter?
 A named variable passed into a function and used to import arguments into functions.

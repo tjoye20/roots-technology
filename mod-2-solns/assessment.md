@@ -1,3 +1,10 @@
+# Module 2 Assessment
+[Click here](https://roots-technology.mykajabi.com/assessments/2147491649/assessment_results/2148796334?result_token=BAhbB2wrB64HFIBVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDURXHsDntaiDCToJem9uZUkiCFVUQwY6BkVGOg1uYW5vX251bWkBzDoNbmFub19kZW5pBjoNc3VibWljcm8iByBASSIIVVRDBjsIVEAL--503b81c204db7f671dfbf206341de41d7d5f72b4)
+
+**Notes**
+1. Five example Git commands: git status, git init, git add, git commit -m, git push.
+2. Five example command line commands: ls, cd, cp, mkdir, rm.
+
 
 ## What is command line used for?
 It's a program that takes in commands, which it passes on to the computer's operating system to run. A text interface for you to pass commands to your computer.
