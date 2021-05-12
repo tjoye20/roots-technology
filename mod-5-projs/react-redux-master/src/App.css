@@ -1,0 +1,70 @@
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.header-container{
+  min-height: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.justify-center{
+  justify-content: center;
+}
+.justify-end{
+  justify-content: flex-end;
+}
+.align-center{
+  align-items: center;
+}
+.align-end{
+  align-items: flex-end;
+}
+
+.grow1{
+  flex: 1;
+}
+.post-input-Group p{
+
+  font-size: 17px;
+  font-weight: 600;
+
+}
+
+.post-input-Group input{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 300;
+
+}
+.create-post-container{
+  max-width: 800px;
+  padding: 30px;
+  margin: 20px;
+
+  
+}
+.post-input-Group textarea{
+  padding: 10px;
+}
+.create-post-container button{
+  padding: 10px;
+  margin: 10px;
+}
+.border{
+  border: solid black 1px;
+}
+.err-text{
+  color: blueviolet;
+  font-size: 14px !important;
+}
+.blog-cards{
+  width: 350px;
+  padding:15px ;
+  margin: 5px;
+
+}

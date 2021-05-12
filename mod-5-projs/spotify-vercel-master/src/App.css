@@ -1,0 +1,68 @@
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.header-container{
+  min-height: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.justify-center{
+  justify-content: center;
+}
+.justify-end{
+  justify-content: flex-end;
+}
+.align-center{
+  align-items: center;
+}
+.align-end{
+  align-items: flex-end;
+}
+
+.grow1{
+  flex: 1;
+}
+.text-input{
+  padding: 5px;
+  font-size: larger;
+}
+.search-box-container button{
+
+  background-color:#1ED760;
+  border-color: #1ED760; ;
+  border-radius: 5px;
+  padding: 10px 20px;
+
+}
+.song-listing > div {
+background-color: #eee;
+padding: 10px;
+margin: 10px;
+border-radius: 10px;
+
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.artist{
+  background-color: rgb(112, 112, 112);
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  border-radius: 10px;
+  margin: 3px;
+}
+.play-link{
+  text-decoration: none;
+  background-color: #1ED760;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-color: #1ED760;
+  margin: 10px;
+}
