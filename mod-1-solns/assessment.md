@@ -75,5 +75,3 @@ You use "#id". Ex.: #nav
 ## In CSS, how do you target an element using the Class attribute?
 You use ".class"
 Ex: ".header"
-
-[Click here](https://roots-technology.mykajabi.com/assessments/2147490745/assessment_results/2148750037?result_token=BAhbB2wrB9VSE4BVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDRNXHsBX3xdxCToJem9uZUkiCFVUQwY6BkVGOg1uYW5vX251bWkCkAE6DW5hbm9fZGVuaQY6DXN1Ym1pY3JvIgZASSIIVVRDBjsIVEAL--30654cd44e1533db799a8ba884330d0c22cc98b0)
