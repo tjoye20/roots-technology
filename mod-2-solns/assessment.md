@@ -1,6 +1,6 @@
 # Module 2 Assessment
 
-## What is command line used for?
+## What is the command line used for?
 The command line is a text interface for you to pass commands to your computer.
 
 ## What is Git used for?
