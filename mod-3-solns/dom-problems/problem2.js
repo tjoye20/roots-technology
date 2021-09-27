@@ -4,11 +4,11 @@ Then, write a JavaScript function to get the HREF attribute of the link.
 
 */
 
-//something like
+//Example link
 
 // <a id='link' href="http://www.google.com">Click the button below to see where you are going.</a>
 
 function getLink(){
-    let showLink = document.getElementById('link').getAttribute('href');
-    document.getElementById('p1').innerHTML = showLink;
+    const linkUrl = document.getElementById('link').getAttribute('href');
+    document.getElementById('p1').innerHTML = linkUrl;
 } 

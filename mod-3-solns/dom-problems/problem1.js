@@ -6,4 +6,4 @@ Then, write a JavaScript program to set the background color of that paragraph.
 
 //solution should include something like:
 
-document.getElementById("p1").style.backgroundColor = "lightblue";
+document.getElementById("p1").style.backgroundColor = "red";

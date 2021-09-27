@@ -17,13 +17,11 @@ then write a JavaScript function that displays the number of items and displays 
 */
 
 function getOptions(){
-    var myDrinks= document.getElementById("drinks")                       //create a variable where it will find our select element with the corresponding ID;
-    var displayText = "Number of items in this dropdown menu is : ";      //create a variable that outputs a string;
-    var itemList = document.getElementById("drinks").length;              //create a variable that displays the number of items inside our select element;
-  for (var i=0; i<myDrinks.length;i++)                                    //write a "for" loop to display the items inside the list as the list grow;
-    {
-      displayText = displayText + "\n " + myDrinks.options[i].text;       //set how we want to display the output;
+    const myDrinks= document.getElementById("drinks")                       //create a variable where it will find our select element with the corresponding ID;
+    const numOfItems = document.getElementById("drinks").length;             //create a variable that displays the number of items inside our select element;
+    console.log(numOfItems);
+
+    for (let i = 0; i < myDrinks.length; i++) {                                   //write a "for" loop to display the items inside the list;
+        console.log(myDrinks.options[i].text);
     }
-  // document.getElementById("p1").innerHTML = displayText;               //write the output in a new P element;
-  alert(displayText);
-  }
+}
