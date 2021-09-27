@@ -4,22 +4,16 @@ tells you the length (tells you how many items are in it) of the object.
 
 */
 
-var car = {
+const car = {
     make : 'BMW',
     year : 2021,
     color : 'red'
 };
 
-//code starts here
 
-Object.size = function(obj) {
-    var size = 0, key;
+function findObjLength(obj) {
+    return Object.keys(obj).length;
+}
 
-    for (key in obj) {
-      if (obj.hasOwnProperty(key)) size++;
-    }
-    return size;
-  };  
-  
-var size = Object.size(car);
-console.log(size);//output 3;
+
+console.log(findObjLength(car));//output 3;

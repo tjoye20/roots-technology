@@ -5,7 +5,7 @@ then write a JavaScript program to display the first and last name of all the pe
 */
 
 
-var people = [
+const people = [
     {
         firstName : 'John',
         lastName :   'Doe',
@@ -32,8 +32,9 @@ var people = [
         age :  12
     }
 ]
-//using .map() to extract first name and last name value out from our object
-var findFullName = people.map(function(a) {
-    return a.firstName + ' ' + a.lastName
+//example using #forEach. You can also use For loop in the same manner
+const printFullName = people.forEach(function(a) {
+    console.log(a.firstName + ' ' + a.lastName)
 });
-console.log(findFullName);
+
+printFullName;
