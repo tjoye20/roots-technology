@@ -3,8 +3,8 @@
 // of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 
 function fizzBuzz(){
-  for(var i=1; i <= 100; i++){
-    var word = ""; //to reduce conditionals, we can construct the word & check two things instead of three.
+  for(let i = 1; i <= 100; i++){
+    let word = ""; //to reduce conditionals, we can construct the word & check two things instead of three.
 
     if (i % 3 ===0){                           
       word += "Fizz";

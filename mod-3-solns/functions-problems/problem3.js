@@ -3,7 +3,7 @@
 
 // For loop
 function countLetter(str, letter) {
- var letterCount = 0;
+ let letterCount = 0;
 
  for (var position = 0; position < str.length; position++) {
     if (str.charAt(position) == letter) {
@@ -19,11 +19,11 @@ console.log(countLetter('w3resource.com', 'o'));
 
 // using forEach
 function countLetter(str, letter) {
-  var letterCount = 0;
-  var arrayOfLetters = str.split("");
+  let letterCount = 0;
+  const arrayOfLetters = str.split("");
 
-  arrayOfLetters.forEach(function(letter_in_array) {
-    if(letter_in_array.toLowerCase() === letter.toLowerCase()) {
+  arrayOfLetters.forEach(function(letterInArray) {
+    if(letterInArray.toLowerCase() === letter.toLowerCase()) {
       letterCount += 1;
     }
   });

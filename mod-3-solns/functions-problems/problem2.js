@@ -3,11 +3,13 @@
 
 // For loop
 function vowelCount(str) {
-  var arrayOfVowels = ["a", "e", "i", "o", "u"];
-  var currentVowelCount = 0;
-  var arrayOfLetters = str.split("");
+  const arrayOfVowels = ["a", "e", "i", "o", "u"];
+  let currentVowelCount = 0;
+  //lowercase the words so they're the same case as vowels array,
+  //then split into array of each letter
+  const arrayOfLetters = str.toLowerCase().split("");
   
-  for(var x = 0; x < arrayOfLetters.length ; x++) {
+  for(let x = 0; x < arrayOfLetters.length; x++) {
     if (arrayOfVowels.includes(arrayOfLetters[x])) {
       currentVowelCount += 1;
     }
@@ -23,7 +25,9 @@ console.log(vowelCount("How many vowels do you see?"));
 function vowelCount(str) {
   var arrayOfVowels = ["a", "e", "i", "o", "u"];
   var currentVowelCount = 0;
-  var arrayOfLetters = str.split("");
+  //lowercase the words so they're the same case as vowels array,
+  //then split into array of each letter
+  const arrayOfLetters = str.toLowerCase().split("");
 
   arrayOfLetters.forEach(function(letter) {
     if (arrayOfVowels.includes(letter)) {
