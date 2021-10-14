@@ -5,13 +5,12 @@
 function findLongestWord(str) {
   var arrayOfWords = str.split(" ");
 
-  //let's use the first word in our array, as our current longest word.
-  // or, you can also use an empty string "" bc the length of it is 0
+  //you can use an empty string "" bc the length of it is 0
   //either way, you need a default word to start for your loop to compare
-  var longestWord = arrayOfWords[0];
+  var longestWord = ""; //we need a value here to start with so we can use it to compare in our loop.
 
   for(var i = 0 ; i < arrayOfWords.length ; i++) {
-    if(longestWord.length < arrayOfWords[i].length) {
+    if(arrayOfWords[i].length > longestWord.length) {
       longestWord = arrayOfWords[i];
     } 
   }
