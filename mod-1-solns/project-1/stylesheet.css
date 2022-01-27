@@ -1,0 +1,59 @@
+/* review your CSS selectors to see how you can target multiple elements at the same time */
+header, .container-1, .container-2, .card-container  {
+	display: flex;
+} 
+
+.main-text {
+	width: 40%;
+}
+
+.main-image {
+	width: 60%;
+}
+
+/* this targets an image tag inside of the class 'main-image' */
+.main-image img {
+	width: 50%;
+}
+
+.title-container {
+	width: 65%;
+}
+
+.testimonials-container {
+	width: 35%;
+}
+
+.card {
+	width: 25%;
+}
+
+
+/* targets all the images inside of the 'card-container' class */
+.card-container img {
+	width: 150px; 
+	height: 90px;
+}
+
+
+header {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container-1 {
+	justify-content: center;
+}
+
+/* above, I first got my basic layout done, getting things into place. */
+/* After that, adding more styling becomes easier */
+
+@media only screen and (max-width: 768px) {
+	/* get containers to be stacked on top of each other again */
+	header, .container-1, .container-2, .card-container  {
+		display: block;
+	}
+
+	/* add the rest of your CSS styling to make the mobile view look good too */
+
+}
