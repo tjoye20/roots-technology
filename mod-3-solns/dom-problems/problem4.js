@@ -25,9 +25,11 @@ function getOptions(){
 
     //grab the selected dropdown option
     const selectedOption = myDrinks.options[myDrinks.selectedIndex].value;
-
+    let stringOfOptions = "";
 
     for (let i = 0; i < myDrinks.length; i++) {
-        console.log(myDrinks.options[i].text);
+        stringOfOptions = stringOfOptions + myDrinks.options[i].text + ", ";
     }
+
+    document.getElementById("p1").innerHTML = stringOfOptions
 }
