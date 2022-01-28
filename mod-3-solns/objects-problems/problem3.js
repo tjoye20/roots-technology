@@ -16,4 +16,4 @@ function findObjLength(obj) {
 }
 
 
-console.log(findObjLength(car));//output 3;
+console.log(findObjLength(car));

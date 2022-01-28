@@ -33,8 +33,10 @@ const people = [
     }
 ]
 //example using #forEach. You can also use For loop in the same manner
-const printFullName = people.forEach(function(a) {
-    console.log(a.firstName + ' ' + a.lastName)
-});
+function displayNameInfo(arrayOfObjects) {
+    arrayOfObjects.forEach(function(a) {
+        console.log(a.firstName + ' ' + a.lastName)
+    });
+}
 
-printFullName;
+displayNameInfo(people);

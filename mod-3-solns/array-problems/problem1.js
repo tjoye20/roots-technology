@@ -5,10 +5,10 @@ your function returns the first 2 elements in that array.)
 
 */
 
-var foodArray = ['cheese', 'bread', 'beef', 'egg', 'pork', 'rice', 'ribs', 'pasta', 'chocolate', 'hot dog', 'potato'];
+const foodArray = ['cheese', 'bread', 'beef', 'egg', 'pork', 'rice', 'ribs', 'pasta', 'chocolate', 'hot dog', 'potato'];
 
 
-var getArrItems = function (array, num) {
+const getArrItems = function (array, num) {
     
     if(array === null || num === null)  //check if a valid array and a valid number have been entered;
       return "Your input should be ('array','number'), please try again.";            //if not will return "Your input should be ('array','number'), please try again.";

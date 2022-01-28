@@ -19,12 +19,17 @@ const books = [
 //code starts here
 
 function sortObj (a, b) {
-    if (a.title < b.title)                  //comparing the first and second elements insdie our objects;
-      return -1;                              //if the condition met, will assign a 'place' to the element;
-    if (a.title > b.title)             //comparing a new set of elements insdie our objects;
-      return 1;                               //if the conditrion met, will assign another 'place' to the element;
-    
-    return 0;                          //if above comparsion already have a 'place', last item will take the last 'place';
+    //comparing the first and second elements inside our objects;
+    if (a.title < b.title) {
+    //if a is less than b, put a on the left side, which shows increasing order                  
+      return -1;
+    }                              
+    else if (a.title > b.title) {             
+      return 1;
+    }
+    else {
+        return 0;
+    }                               
 }
 
 console.log(books.sort(sortObj)); 
