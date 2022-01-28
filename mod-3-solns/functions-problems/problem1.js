@@ -3,15 +3,17 @@
 
 //using a for loop
 function findLongestWord(str) {
-  var arrayOfWords = str.split(" ");
+  const arrayOfWords = str.split(" ");
 
-  //you can use an empty string "" bc the length of it is 0
-  //either way, you need a default word to start for your loop to compare
+  //you can use an empty string "" bc the length of it is 0,
+  //or you can use the first word, or any random word in the arrayOfWords.
+
+  //point is, you need a default reference point for your loop to compare with
   //we need a value here to start with so we can use it to compare in our loop.
 
-  var longestWord = "";
+  let longestWord = "";
 
-  for(var i = 0 ; i < arrayOfWords.length ; i++) {
+  for(let i = 0 ; i < arrayOfWords.length ; i++) {
     if(arrayOfWords[i].length > longestWord.length) {
       longestWord = arrayOfWords[i];
     } 
@@ -25,10 +27,8 @@ console.log(findLongestWord("find the longest word")); // longest
 
 //using the forEach method
 function findLongestWord(str) {
-  var arrayOfWords = str.split(" ");
-
-  //let's use the first word in our array, as our current longest word.
-  var longestWord = "";
+  const arrayOfWords = str.split(" ");
+  let longestWord = "";
 
   arrayOfWords.forEach(function(word) {
     if(word.length > longestWord.length) {

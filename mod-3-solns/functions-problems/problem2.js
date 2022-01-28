@@ -23,8 +23,8 @@ console.log(vowelCount("How many vowels do you see?"));
 
 // forEach method
 function vowelCount(str) {
-  var arrayOfVowels = ["a", "e", "i", "o", "u"];
-  var currentVowelCount = 0;
+  const arrayOfVowels = ["a", "e", "i", "o", "u"];
+  let currentVowelCount = 0;
   //lowercase the words so they're the same case as vowels array,
   //then split into array of each letter
   const arrayOfLetters = str.toLowerCase().split("");
